@@ -14,4 +14,35 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="shared\common.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\startchar.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="PFVapoursynth.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="PFAvisynth.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shared\common.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\startchar.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="PFAvisynth.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="PFDefault.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="PFVapoursynth.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
